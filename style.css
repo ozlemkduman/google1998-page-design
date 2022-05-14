@@ -1,0 +1,102 @@
+body{
+    box-sizing: border-box;
+}
+/* background color */
+.grey{
+    background-color: #eeeeee;
+}
+.l-green{
+    background-color: #7ee5da;
+}
+.h-green{
+    background-color: #70ccc2; 
+}
+.green{
+    background-color: #62b3aa;
+}
+/* all buttons */
+.buttons{
+    background-color: #efefef;
+    height: 21px;
+    border-width: 2px;
+    border: 1px solid grey;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+img{
+    width: 351px; 
+    height:113px;
+}
+/* main and sections organizing */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 89%;
+    height: 144px;
+    margin: 5px auto 0px;
+}
+
+.sect-1{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.sect-2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:76 px;
+}
+
+/* general width*/
+.wid30{
+    width: 36%;
+}
+.wid10{
+    width: 20%;
+}
+.wid40{
+    width: 44%;
+}
+.marg{
+    margin: 2px 2px 0px 0px;
+}
+
+/* article in section */
+.art1{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.art2{
+    text-align: center;
+    font-size: 13px;
+    padding: 3px ;
+}
+.art3{
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+form a{
+    margin-left: 10px;
+}
+
+#foot p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 13px;
+}
+/* effect for button click */
+.buttons:hover{
+    background-color: #e2e2e2;
+}
+.buttons:active{
+    background-color: #efefef;
+}
